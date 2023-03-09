@@ -19,4 +19,4 @@ def twoSum(self, nums: List[int], target: int) -> List[int]:
         if sub == nums[j]:
             break
         
-    return i, j
+    return [i, j]
